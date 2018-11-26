@@ -11,4 +11,10 @@ function ninjaBabySelector(){
   return $("#baby-ninja");
 }
 
-function 
+function divSelector(){
+  return $('.pics');
+}
+
+function firstListItem(){
+  return $('#pic-list:first-child')
+}
